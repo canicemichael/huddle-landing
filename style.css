@@ -183,7 +183,8 @@ div .ready{
     margin-top: 4em;
     z-index: 1;
     position: absolute;
-    top: 105rem;
+    top: 1650px;
+    /* top: 105rem; */
     left: 50%; /*Add this*/
     transform: translate(-50%, 0);
 }
@@ -205,8 +206,6 @@ div .ready{
     font-family: "Poppins";
     z-index: 1;
 }
-
-
 footer{
     padding: 3em;
     padding-top: 10em;
@@ -214,13 +213,129 @@ footer{
     z-index: 0;
     color: white;
 }
+@media screen and (max-width: 2560px){
+    .ready{
+        top: 2874px;
+    }
+}
+@media screen and (max-width: 1440px){
+    .ready{
+        top: 1913px;
+    }
+    .second-header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 11em;
+    }
+}
+@media screen and (max-width: 1024px){
+    .top-main-top h3 {
+        font-family: "Poppins";
+        font-size: 22px;
+    }
+    .second-main-second h3 {
+        font-family: "Poppins";
+        font-size: 22px;
+    }
+    .second-header{
+        margin-top: 8em;
+    }
+    .second-header-img{
+        height: 80%;
+        width: auto;
+    }
+    .second-header-top h1{
+        font-family: "Poppins";
+        font-size: 30px;
+    }
+    .main-img{
+        width: 100%;
+    }
+    .ready{
+        top: 1717px;
+    }
+    .top-main{
+        padding: 0.5em;
+    }
+    .second-main{
+        padding: 0.5em;
+    }
+    .third-main{
+        padding: 0.5em;
+    }
+}
+@media screen and (max-width: 768px){
+    main {
+        padding: 4em 3em;
+        padding-bottom: 8em;
+        background-color: hsl(193, 100%, 96%);
+        z-index: 1;
+    }
+    .top-main-top h3 {
+        font-family: "Poppins";
+        font-size: 18px;
+    }
+    .top-main-top p {
+        font-family: "Poppins";
+        font-size: 12px;
+        margin-bottom: 2em;
+    }
+    .second-header {
+        margin-top: 5em;
+    }
+    .second-header-top h1 {
+        font-family: "Poppins";
+        font-size: 22px;
+    }
+    .second-header-top p {
+        font-family: "Poppins";
+        font-size: 13px;
+        margin-bottom: 2em;
+    }
+    .second-main-second h3 {
+        font-family: "Poppins";
+        font-size: 16px;
+    }
+    .second-main-second p {
+    font-family: "Poppins";
+    font-size: 12px;
+    margin-bottom: 2em;
+    }
+    .second-header-top .second-btn {
+        width: 70%;
+    }
+    .ready{
+        height: 8em;
+        width: 45%;
+        top: 1308px;
+    }
+    .ready h3 {
+        font-family: "Poppins";
+        font-size: 18px;
+    }
+    footer{
+        padding-top: 6em;
+        font-size: 13px;
+    }
+    .top-footer-img{
+        height: 28px;
+    }
+}
+
+
+
+
+
+
+
+
 .huddle-logo{
     margin-bottom: 2em;
 }
 .footer{
     display: flex;
     /* align-items: center; */
-    justify-content: center;
+    justify-content: space-between;
 }
 .top-footer{
     height: 15vh;
@@ -228,8 +343,29 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
 .gap{
     display: flex;
+}
+.second-footer{
+    height: 15vh;
+    width: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.third-footer{
+    height: 15vh;
+    width: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fourth-footer{
+    height: 15vh;
+    width: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
