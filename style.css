@@ -274,6 +274,23 @@ footer{
         margin-top: 11em;
     }
 }
+@media screen and (max-width: 1366px){
+    .second-header {
+        margin-top: 5em;
+    }
+    .second-header-top .second-btn {
+        width: 56%;
+    }
+    .top-main-top p{
+        font-size: 14px;
+    }
+    .second-main-second p{
+        font-size: 14px;
+    }
+    .ready {
+        top: 1543px;
+    }
+}
 @media screen and (max-width: 1024px){
     .top-main-top h3 {
         font-family: "Poppins";
