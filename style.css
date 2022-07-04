@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     position: relative;
-}
+} */
 
 header{
     background-image: url('images/bg-hero-desktop.svg');
@@ -180,13 +180,13 @@ div .ready{
     border-radius: 15px;
     border: 3px solid rgb(228, 225, 225);
     margin: auto;
-    margin-top: 4em;
-    z-index: 1;
-    position: absolute;
-    top: 1650px;
+    /* margin-top: 4em; */
+    /* z-index: 1; */
+    /* position: absolute; */
+    /* top: 1650px; */
     /* top: 105rem; */
-    left: 50%; /*Add this*/
-    transform: translate(-50%, 0);
+    /*left: 50%; Add this*/
+    /* transform: translate(-50%, 0); */
 }
 .ready h3{
     font-family: "Poppins";
@@ -216,6 +216,7 @@ footer{
     padding: 3em;
     padding-top: 10em;
     background-color: #00252E;
+    border: 2px solid #00252E;
     z-index: 0;
     color: white;
 }
@@ -266,18 +267,98 @@ footer{
 }
 
 @media screen and (max-width: 2560px){
-    .ready{
-        top: 2874px;
+main{
+    position: relative;
+    padding-bottom: 0em;
+}
+.ready{
+    height: 10em;
+    width: 54%;
+    bottom: -34em;
+    margin-bottom: 35em;
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, 0);
+    z-index: 1;
+}
+.ready-pad{
+    height: 6em;
+    border: 2px solid #00252E;
+    width: 140%;
+    margin: 0 -4em;
+    margin-top: 9em;
+}
+    .fourth-footer{
+        display: none;
+    }
+    .fourth-footerr{
+        display: flex;
+        justify-content: space-between;
+        width: 12%;
+        flex-direction: row;
+        height: auto;
+        margin: auto;
+        margin-top: 0em;
+    }
+    div .fa-brands{
+        font-size: .8em;
+        color: white;
+        border: 1px solid white;
+        padding: 0.5em;
+        border-radius: 50%;
+    }
+    .top-footer-img{
+        height: 28px;
     }
 }
 @media screen and (max-width: 1440px){
-    .ready{
-        top: 1913px;
-    }
     .second-header {
         display: flex;
         justify-content: space-between;
         margin-top: 11em;
+    }
+    main{
+    position: relative;
+    padding-bottom: 0em;
+    }
+    .ready{
+        height: 10em;
+        width: 54%;
+        bottom: -34em;
+        margin-bottom: 35em;
+        position: absolute;
+        left: 50%; 
+        transform: translate(-50%, 0);
+        z-index: 1;
+    }
+    .ready-pad{
+        height: 6em;
+        border: 2px solid #00252E;
+        width: 140%;
+        margin: 0 -4em;
+        margin-top: 9em;
+    }
+    .fourth-footer{
+        display: none;
+    }
+    .fourth-footerr{
+        display: flex;
+        justify-content: space-between;
+        width: 12%;
+        flex-direction: row;
+        height: auto;
+        margin: auto;
+        margin-top: 0em;
+    }
+    div .fa-brands{
+        font-size: .8em;
+        color: white;
+        border: 1px solid white;
+        padding: 0.5em;
+        border-radius: 50%;
+    }
+    .top-footer-img{
+        height: 28px;
     }
 }
 @media screen and (max-width: 1366px){
@@ -292,9 +373,6 @@ footer{
     }
     .second-main-second p{
         font-size: 14px;
-    }
-    .ready {
-        top: 1543px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -317,11 +395,29 @@ footer{
         font-family: "Poppins";
         font-size: 30px;
     }
+    main{
+        position: relative;
+        padding-bottom: 0em;
+    }
     .main-img{
         width: 100%;
     }
     .ready{
-        top: 1717px;
+        height: 10em;
+        width: 54%;
+        bottom: -34em;
+        margin-bottom: 35em;
+        position: absolute;
+        left: 50%; 
+        transform: translate(-50%, 0);
+        z-index: 1;
+    }
+    .ready-pad{
+        height: 6em;
+        border: 2px solid #00252E;
+        width: 140%;
+        margin: 0 -4em;
+        margin-top: 9em;
     }
     .top-main{
         padding: 0.5em;
@@ -332,13 +428,42 @@ footer{
     .third-main{
         padding: 0.5em;
     }
+    .fourth-footer{
+        display: none;
+    }
+    .fourth-footerr{
+        display: flex;
+        justify-content: space-between;
+        width: 12%;
+        flex-direction: row;
+        height: auto;
+        margin: auto;
+        margin-top: 0em;
+    }
+    div .fa-brands{
+        font-size: .8em;
+        color: white;
+        border: 1px solid white;
+        padding: 0.5em;
+        border-radius: 50%;
+    }
+    .top-footer-img{
+        height: 28px;
+    }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
+    header{
+        padding: 3em;
+    }
     main {
         padding: 4em 3em;
-        padding-bottom: 8em;
+        padding-bottom: 0em;
         background-color: hsl(193, 100%, 96%);
+        position: relative;
         z-index: 1;
+    }
+    .top-main-top{
+        width: 48%;
     }
     .top-main-top h3 {
         font-family: "Poppins";
@@ -352,6 +477,13 @@ footer{
     .second-header {
         margin-top: 5em;
     }
+    .second-header-top {
+        width: 40%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .second-header-top h1 {
         font-family: "Poppins";
         font-size: 22px;
@@ -360,6 +492,15 @@ footer{
         font-family: "Poppins";
         font-size: 13px;
         margin-bottom: 2em;
+        font-weight: 500;
+    }
+    .second-header-img {
+        height: auto;
+        width: 105%;
+        margin: auto;
+    }
+    .second-main-second{
+        width: 48%;
     }
     .second-main-second h3 {
         font-family: "Poppins";
@@ -374,23 +515,235 @@ footer{
         width: 70%;
     }
     .ready{
-        height: 8em;
-        width: 45%;
-        top: 1308px;
+        height: 10em;
+        width: 54%;
+        bottom: -34em;
+        margin-bottom: 35em;
+        position: absolute;
+        left: 50%; 
+        transform: translate(-50%, 0);
+        z-index: 1;
     }
     .ready h3 {
         font-family: "Poppins";
         font-size: 18px;
     }
+    .ready-pad{
+        height: 6em;
+        border: 2px solid #00252E;
+        width: 140%;
+        margin: 0 -4em;
+        margin-top: 9em;
+    }
     footer{
         padding-top: 6em;
         font-size: 13px;
+    }
+    .fourth-footer{
+        display: none;
+    }
+    .fourth-footerr{
+        display: flex;
+        justify-content: space-between;
+        width: 12%;
+        flex-direction: row;
+        height: auto;
+        margin: auto;
+        margin-top: 0em;
+    }
+    div .fa-brands{
+        font-size: .8em;
+        color: white;
+        border: 1px solid white;
+        padding: 0.5em;
+        border-radius: 50%;
     }
     .top-footer-img{
         height: 28px;
     }
 }
-@media screen and (max-width: 425px){
+
+@media screen and (max-width: 600px) {
+    header{
+        padding: 1.5em;
+        height: auto;
+    }
+    .top-header{
+        align-items: center;
+        margin-bottom: 8em;
+    }
+    .top-header-img{
+        height: 1.2em;
+    }
+    .Try-it{
+        height: 2.5em;
+        width: 8.5em;
+        font-weight: 700;
+    }
+    .second-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2.9em;
+    }
+    .second-header-top{
+        margin: auto;
+        width: auto;
+        padding: 1em;
+        align-items: center;
+        text-align: center;
+    }
+    .second-header-top h1{
+        margin-bottom: 1em;
+    }
+    .second-header-top p {
+        font-size: 17px;
+        font-family: "Poppins";
+        margin-bottom: 1em;
+    }
+    .second-header-second{
+        margin: auto;
+        width: auto;
+    }
+    .second-header-top .second-btn{
+        margin-bottom: 7em;
+        width: 16em;
+    }
+    .second-header-img {
+        height: auto;
+        margin: auto;
+        width: 95%;
+    }
+    main{
+        padding: 4em 1em;
+        padding-bottom: 0em;
+        position: relative;
+    }
+    .main-title{
+        margin-top: 2em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    .main-desc{
+        text-align: center;
+    }
+    .top-main, .second-main, .third-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .top-main, .third-main{
+        flex-direction: column-reverse;
+    }
+    .top-main-top, .top-main-second{
+        width: 80%;
+        margin: auto;
+    }
+    .second-main-second{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .ready {
+        height: 11em;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(193, 100%, 96%);
+        width: 90%;
+        border: 2px solid rgb(105, 101, 101);
+        border-radius: 15px;
+        border: 3px solid rgb(228, 225, 225);
+        margin: auto;
+        margin-bottom: -15em;
+        bottom: 16em;
+        position: absolute;
+        left: 50%; 
+        transform: translate(-50%, 0);
+        z-index: 1;
+    }
+    .ready h3{
+        text-align: center;
+    }
+    .ready .get-started{
+        width: 80%;
+        margin-top: 1.8em;
+    }
+    .ready-pad{
+        height: 6em;
+        border: 2px solid #00252E;
+        width: 140%;
+        margin: 0 -2em;
+        margin-top: 7em;
+    }
+    footer{
+        padding-top: 3em;
+        font-family: "Poppins";
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .top-footer{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 2em;
+    }
+    .second-footer{
+        height: auto;
+        margin: 10px;
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+    .third-footer{
+        height: auto;
+        margin: 10px;
+        justify-content: space-around;
+        margin-top: 0px;
+    }
+    .mar-btn{
+        margin-bottom: 1em;
+    }
+    .fourth-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 80%;
+        flex-direction: row;
+        height: auto;
+        margin: auto;
+        margin-top: 3em;
+    }
+    .fourth-footerr{
+        display: none;
+    }
+    .copyright{
+        /* margin-top: 3px; */
+        justify-content: center;
+    }
+
+    div .fa-brands{
+        font-size: 1.5em;
+        color: white;
+        border: 2px solid white;
+        padding: 0.5em;
+        border-radius: 50%;
+    }
+    footer .copyright{
+        text-align: center;
+    }
+}
+
+/* @media screen and (max-width: 425px){
     header{
         padding: 2em;
         height: 100vh;
@@ -481,7 +834,6 @@ footer{
     }
     .footer{
         display: flex;
-        /* align-items: center; */
         justify-content: space-between;
         flex-direction: column;
     }
@@ -515,4 +867,4 @@ footer{
         margin-top: 3px;
         justify-content: center;
     }
-}
+} */
