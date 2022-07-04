@@ -206,6 +206,12 @@ div .ready{
     font-family: "Poppins";
     z-index: 1;
 }
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
 footer{
     padding: 3em;
     padding-top: 10em;
