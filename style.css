@@ -68,6 +68,10 @@ header{
     border-color: transparent;
     width: 40%;
 }
+.second-btn:hover {
+    background-color: hsl(322, 74%, 79%); /* Green */
+    color: white;
+}
 
 .second-header-second{
     width: 45%;
@@ -207,18 +211,19 @@ div .ready{
     z-index: 1;
 }
 
-.button:hover {
-    background-color: #4CAF50; /* Green */
+.get-started:hover {
+    background-color: hsl(322, 74%, 79%); /* Green */
     color: white;
 }
 
 footer{
     padding: 3em;
-    padding-top: 10em;
+    padding-top: 4em;
     background-color: #00252E;
     border: 2px solid #00252E;
     z-index: 0;
     color: white;
+    font-family: "Poppins";
 }
 .huddle-logo{
     margin-bottom: 2em;
@@ -358,6 +363,12 @@ main{
         border: 1px solid white;
         padding: 0.5em;
         border-radius: 50%;
+        cursor: pointer;
+    }
+    .fa-brands:hover {
+        background-color: hsl(322, 96%, 70%); /* Green */
+        color: white;
+        cursor: pointer;
     }
     .top-footer-img{
         height: 28px;
@@ -561,6 +572,11 @@ main{
         border: 1px solid white;
         padding: 0.5em;
         border-radius: 50%;
+        cursor: pointer;
+    }
+    .fa-brands:hover {
+        background-color: hsl(322, 96%, 70%); /* Green */
+        color: white;
     }
     .top-footer-img{
         height: 28px;
@@ -734,13 +750,18 @@ main{
         /* margin-top: 3px; */
         justify-content: center;
     }
-
     div .fa-brands{
         font-size: 1.5em;
         color: white;
         border: 2px solid white;
         padding: 0.5em;
         border-radius: 50%;
+        cursor: pointer;
+    }
+    .fa-brands:hover {
+        background-color: hsl(322, 96%, 70%); /* Green */
+        color: white;
+        cursor: pointer;
     }
     footer .copyright{
         text-align: center;
